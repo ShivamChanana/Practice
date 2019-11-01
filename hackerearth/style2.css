@@ -1,0 +1,56 @@
+body{
+background-color: grey;
+}
+.header{
+    background: #333355;
+    color: white;
+    height: 60px;
+    width: 100%;
+}
+#header-content{
+    display: flex;
+    margin:1px ;    
+}
+.logo
+{
+    height: 30px;
+    width: 70px;
+    margin-left: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+p {
+    margin: 10px;
+}
+.search{
+    
+    margin-left: 400px;
+}
+.start{
+    background: white;
+    color: #456;
+    height: 40px;
+    width: 100%;
+    margin-top: -15px;
+}
+.content{
+    margin-left: 500px;
+    display: flex;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+    .column {
+        float: left;
+      }
+      
+      .left {
+        width: 75%;
+      }
+      
+      .right {
+        width: 25%;
+      }
